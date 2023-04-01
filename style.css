@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%
+}
+body{
+    font-size: 1.65rem;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    max-width: 373px;
+    margin:auto;
+    
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 99%);
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.bottom-section{
+    text-align: center;
+    padding: 2em 1.5em;
+    /* background-color: rgb(255, 255, 250); */
+}
+.bottom-section h1{
+    font-size: 2.5rem;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.annual-plan{
+    flex:1;
+    text-align: start;
+}
+.annual-plan > p{
+    margin-bottom: 2px;
+}
+#btn{
+    width: 100%;
+    padding: 1em 2em;
+}
+.text{
+    margin-bottom: 2rem;
+}
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.plan img{
+    margin-right: 1em;
+    height: 80%;
+}
+p, a, button{
+    font-size: 1.6rem;
+}
+#description{
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.color-text1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.color-text2{
+    color:  hsl(224, 23%, 55%) !important;
+}
+#btn{
+    border-style: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 6px 19px 32px 1px rgba(0,0,0,0.21);
+}
+a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+#cancel-order{
+    font-weight: 700;
+}
+a:hover{
+    cursor: pointer;
+    color: hsla(245, 75%, 52%, 0.7);
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.7);
+}
+#cancel-order:hover{
+    color: hsl(223, 47%, 23%)!important;
+    cursor: pointer;
+    font-weight: 900;
+}
